@@ -13,4 +13,4 @@ Currently, the network is very simple, only trying to find a target that's eithe
 
 ## How it works
 Currently very simple. Only contains two layers. The first layer computes the dot product of the vectors with the bias. The second layer transforms the data with the sigmoid function
-$$S(x)=1/1+e^x
+$$S(x)=1/1+e^x$$
