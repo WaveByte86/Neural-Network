@@ -2,7 +2,6 @@ import numpy as np
 
 #The neural network below predicts values between 1 and 0 through the sigmoid function. 
 #The layers in the prediction are for transforming the data. Layer 1 calculates the dot product of the vector and the weights, and layer 2 puts the answer between 1 and 0 through the sigmoid function
-#This is a base for other neural nets. Don't change this code. Make a copy and then modify it
 class NeuralNetwork:
     def __init__(self, learning_rate):
         self.weights = np.array([np.random.randn(), np.random.randn()])
